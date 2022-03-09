@@ -98,7 +98,7 @@ class Dns_monitoring:
     def log_and_post(self, content, s_code ):
         self.loger(content,s_code)
         return_code = t1.post_wx_work(
-            "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=1207b345-7471-466f-b47b-54e36f568ff7", 
+            "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=207b345-7471-466f-b47b-54e36f568ff7", 
              content)
         
         if return_code['errcode']==0:
